@@ -29,7 +29,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>acps</finalName>
+		<finalName>demo</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -186,20 +186,20 @@
 								<configuration>
 									<tasks>
 										<echo>
-											acps Deploying
+											demo Deploying
 										</echo>
 
 										<!-- 删除原有的war -->
 										<exec executable="/bin/rm">
 											<arg value="-rf" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 
 										<!-- COPY WAR包并修改WAR包名称 -->
 										<exec executable="/bin/cp">
 											<arg value="-r" />
-											<arg value="${basedir}/target/acps" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="${basedir}/target/demo" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 										<echo>Deploy Complete</echo>
 									</tasks>
@@ -228,20 +228,20 @@
 								<configuration>
 									<tasks>
 										<echo>
-											acps Deploying
+											demo Deploying
 										</echo>
 
 										<!-- 删除原有的war -->
 										<exec executable="/bin/rm">
 											<arg value="-rf" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 
 										<!-- COPY WAR包并修改WAR包名称 -->
 										<exec executable="/bin/cp">
 											<arg value="-r" />
-											<arg value="${basedir}/target/acps" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="${basedir}/target/demo" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 										<echo>Deploy Complete</echo>
 									</tasks>
@@ -270,20 +270,20 @@
 								<configuration>
 									<tasks>
 										<echo>
-											acps Deploying
+											demo Deploying
 										</echo>
 
 										<!-- 删除原有的war -->
 										<exec executable="/bin/rm">
 											<arg value="-rf" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 
 										<!-- COPY WAR包并修改WAR包名称 -->
 										<exec executable="/bin/cp">
 											<arg value="-r" />
-											<arg value="${basedir}/target/acps" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="${basedir}/target/demo" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 										<echo>Deploy Complete</echo>
 									</tasks>
@@ -312,20 +312,20 @@
 								<configuration>
 									<tasks>
 										<echo>
-											acps Deploying
+											demo Deploying
 										</echo>
 
 										<!-- 删除原有的war -->
 										<exec executable="/bin/rm">
 											<arg value="-rf" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 
 										<!-- COPY WAR包并修改WAR包名称 -->
 										<exec executable="/bin/cp">
 											<arg value="-r" />
-											<arg value="${basedir}/target/acps" />
-											<arg value="/usr/local/ciecc/webapps/acps" />
+											<arg value="${basedir}/target/demo" />
+											<arg value="/usr/local/ciecc/webapps/demo" />
 										</exec>
 										<echo>Deploy Complete</echo>
 									</tasks>
